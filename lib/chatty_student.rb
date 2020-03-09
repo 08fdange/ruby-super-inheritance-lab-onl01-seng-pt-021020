@@ -13,7 +13,7 @@ class ChattyStudent < Student
     loop do
       i += 1
       if i < 10
-        self.raise_hand
+        puts "Pick me!"
       end
     end
   end
