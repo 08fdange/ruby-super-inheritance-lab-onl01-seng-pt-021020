@@ -9,14 +9,8 @@ class ChattyStudent < Student
   
   def raise_hand
     super
-    i=0
-    loop do
-      i += 1
-      if i < 10
-        puts "Pick me!"
-      else
-        break
-      end
+    10.times do 
+      puts "Pick me!"
     end
   end
 end
