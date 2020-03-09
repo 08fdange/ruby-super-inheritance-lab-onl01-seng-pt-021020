@@ -9,5 +9,5 @@ class ChattyStudent < Student
   
   def raise_hand
     super
-    puts ""
+    for Student.raise_hand do 
 end
