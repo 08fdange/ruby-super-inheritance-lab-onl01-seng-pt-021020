@@ -9,7 +9,12 @@ class ChattyStudent < Student
   
   def raise_hand
     super
+    i=0
     loop do
-      Student.raise_hand
+      i += 1
+      if i < 10
+        Student.raise_hand
+      end
     end
+  end
 end
