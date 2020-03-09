@@ -14,6 +14,8 @@ class ChattyStudent < Student
       i += 1
       if i < 10
         puts "Pick me!"
+      else
+        break
       end
     end
   end
