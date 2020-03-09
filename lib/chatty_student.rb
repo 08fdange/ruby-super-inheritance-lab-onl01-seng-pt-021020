@@ -13,7 +13,7 @@ class ChattyStudent < Student
     loop do
       i += 1
       if i < 10
-        Student.raise_hand
+        self.raise_hand
       end
     end
   end
